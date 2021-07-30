@@ -14,7 +14,6 @@ import re
 import sys
 from datetime import datetime, timedelta
 
-CORS(application, support_credentials=True)
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 Teachers = Base.classes.teachers
